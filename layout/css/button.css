@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Default Button
+   ========================================================================== */
+.btn_group{}
+.btn_group a{
+    margin: 5px;
+}
+.default_btn{
+    background-color: #cfa670;
+    color: #fff;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 3px;
+}
+.default_btn:hover{
+    background-color: #9b7645;
+    color: #fff;
+}
+/* ==========================================================================
+   Border Button
+   ========================================================================== */
+.border_btn{
+    background-color: transparent;
+    color: #fff;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border: 1px solid #cfa670;
+    border-radius: 3px;
+}
+.border_btn:hover{
+    background-color: #9b7645;
+    color: #fff;
+}
