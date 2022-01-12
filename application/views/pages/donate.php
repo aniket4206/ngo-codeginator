@@ -83,6 +83,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   color: #fff;
 }
         </style>
+        <style>
+.pager-header{
+    background-image: url(../ngo/layout/img/5.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.pager-header h2{
+    color: #fff;
+    font-size: 42px;
+}
+.pager-header p{
+    color: #ddd;
+}
+</style>
+
         <div class="header-height"></div>
         
         <div class="pager-header">

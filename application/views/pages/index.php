@@ -9,9 +9,9 @@
         <section class="slider-section">
             <div class="slider-wrapper">
                 <div id="main-slider" class="nivoSlider">
-                    <img src="<?= base_url() ?>layout/img/slider-1.jpg" alt="" title="#slider-caption-1"/>
-                    <img src="<?= base_url() ?>layout/img/slider-2.jpg" alt="" title="#slider-caption-2"/>
-                    <img src="<?= base_url() ?>layout/img/slider-3.jpg" alt="" title="#slider-caption-3"/>
+                    <img src="<?= base_url() ?>layout/img/6.png" alt="" title="#slider-caption-1"/>
+                    <img src="<?= base_url() ?>layout/img/6.png" alt="" title="#slider-caption-2"/>
+                    <img src="<?= base_url() ?>layout/img/6.png" alt="" title="#slider-caption-3"/>
                 </div><!-- /#main-slider -->
 
                 <div id="slider-caption-1" class="nivo-html-caption slider-caption">
@@ -23,7 +23,7 @@
                                    <h1 class="wow cssanimation leFadeInRight sequence">Better Life for People</h1>
                                     <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
                                     <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
-                                    <a href="<?= base_url('donate') ?>" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
+                                    <a href="<?= base_url('donate') ?>" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donate Now</a>
                                 </div>
                            </div>
                         </div>
@@ -37,7 +37,7 @@
                                     <h1 class="wow cssanimation fadeInTop" data-wow-delay="1s" data-wow-duration="800ms">Together we  <br>can make a Difference</h1>
                                     <p class="wow cssanimation fadeInBottom" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
                                     <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
-                                    <a href="<?= base_url('donate') ?>" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
+                                    <a href="<?= base_url('donate') ?>" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donate Now</a>
                                 </div>
                            </div>
                         </div>
@@ -52,7 +52,7 @@
                                     <h1 class="wow cssanimation lePushReleaseFrom sequence" data-wow-delay="1s">Give a little. Change a lot.</h1>
                                     <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
                                     <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
-                                    <a href="<?= base_url('donate') ?>" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
+                                    <a href="<?= base_url('donate') ?>" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donate Now</a>
                                 </div>
                            </div>
                         </div>
@@ -68,25 +68,25 @@
                         <div class="col-md-4 col-sm-6 xs-padding">
                             <div class="promo-content">
                                 <img src="<?= base_url() ?>layout/img/icon-1.png" alt="prmo icon">
-                                <h3>Make Donetion</h3>
-                                <p>Help today because tomorrow you may be the one who needs helping!</p>
-                                <a href="#">Read More</a>
+                                <h3>Make a Donation</h3>
+                                <p>Every small help can contribute to a bigger smile. </p>
+                                <!-- <a href="#">Read More</a> -->
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 xs-padding">
                             <div class="promo-content">
                                 <img src="<?= base_url() ?>layout/img/icon-2.png" alt="prmo icon">
-                                <h3>Fundrising</h3>
-                                <p>Help today because tomorrow you may be the one who needs helping! </p>
-                                <a href="#">Read More</a>
+                                <h3>Fundraising</h3>
+                                <p>Bettering each life by being their  <br/>'TO - GO Person' in times of uncertainty!  </p>
+                                <!-- <a href="#">Read More</a> -->
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 xs-padding">
                             <div class="promo-content">
                                 <img src="<?= base_url() ?>layout/img/icon-3.png" alt="prmo icon">
                                 <h3>Become A Volunteer</h3>
-                                <p>Help today because tomorrow you may be the one who needs helping! </p>
-                                <a href="#">Read More</a>
+                                <p>Get the greatest privilege of serving humanity! </p>
+                                <!-- <a href="#">Read More</a> -->
                             </div>
                         </div>
                     </div>
@@ -180,16 +180,16 @@
                     <div class="col-md-8 xs-padding">
                         <div class="about-wrap row">
                             <div class="col-md-6 xs-padding">
-                                <img src="<?= base_url() ?>layout/img/history.jpg" alt="about-thumb">
+                                <img src="<?= base_url() ?>layout/img/demo1.jpg" alt="about-thumb">
                                 <h3>Our History</h3>
-                                <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.</p>
-                                <a href="#" class="default-btn">Read More</a>
+                                <p>Generous Heart Foundations was a brainchild of our President Mr Sarthak Parab. Every member has helped people individually but the urge to form an actual official platform was raised when we started getting approached for help from all over. We promise to serve humankind with all our heart.</p>
+                                <!-- <a href="#" class="default-btn">Read More</a> -->
                             </div>
                             <div class="col-md-6 xs-padding">
-                                <img src="<?= base_url() ?>layout/img/mission.jpg" alt="about-thumb">
+                                <img src="<?= base_url() ?>layout/img/demo3.jpg" alt="about-thumb">
                                 <h3>Our Mission</h3>
-                                <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.</p>
-                                <a href="#" class="default-btn">Read More</a>
+                                <p>Our mission is to help & serve humanity to the greatest extent that we can, along with ensuring that no child goes to sleep hungrily & holds a bag on their shoulder with a smile, empowering women in every possible way, Caring for old-aged people & to make sure, India grows as a happy nation.</p>
+                                <!-- <a href="#" class="default-btn">Read More</a> -->
                             </div>
                         </div>
                     </div>
@@ -205,19 +205,19 @@
                             <h4>Featured Campaigns</h4>
                             <h2>Featured project to built a School.</h2>
                             <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
-                            <div class="progress">
+                            <!-- <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="wow cssanimation fadeInLeft">35%</span></div>
                             </div>
                             <div class="donation-box">
                                 <h3><i class="ti-bar-chart"></i>Goal: $450000</h3>
                                 <h3><i class="ti-thumb-up"></i>Raised: $55000</h3>
-                            </div>
-                            <a href="#" class="default-btn">Donate Now</a>
+                            </div> -->
+                            <a href="<?= base_url('donate') ?>" class="default-btn">Donate Now</a>
                         </div>
                     </div>
                     <div class="col-md-6 xs-padding">
                         <div class="video-wrap">
-                            <img src="<?= base_url() ?>layout/img/video.jpg" alt="video">
+                            <img src="<?= "https://img.youtube.com/vi/Sqqj_14wBxU/hqdefault.jpg" ?>" alt="video">
                             <div class="play">
                                 <a class="img-popup" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=_IlLwfC2dNc"><i class="ti-control-play"></i></a>
                             </div>
@@ -353,30 +353,30 @@
                 </div><!-- /Section Heading -->
                 <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
                     <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                        <p>I feel lucky to be for someone as I feel very uplifted by helping others..</p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-1.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Jonathan Smith <span>Marketer</span></h4>
                         </div>
                     </div>
-                    <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                    <div class="testimonial-item">  
+                        <p>Some feelings cannot be explained & all I can say is by joining here, I have gained a lot of satisfaction. </p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-2.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Angelina Rose <span>Designer</span></h4>
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                        <p>A place that made me believe that humanity still exists!</p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-3.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Taylor Swift <span>Developer</span></h4>
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                        <p>It gives me the ultimate power to enlighten lives around me.</p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-4.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Michel Brown <span>Programer</span></h4>
                         </div>
                     </div>

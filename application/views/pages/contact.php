@@ -8,7 +8,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <?php include 'header.php'?>
-
+<style>
+.pager-header{
+    background-image: url(../ngo/layout/img/5.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.pager-header h2{
+    color: #fff;
+    font-size: 42px;
+}
+.pager-header p{
+    color: #ddd;
+}
+</style>
+ 
         <div class="header-height"></div>
         
         <div class="pager-header">
@@ -31,11 +51,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-6 xs-padding">
                         <div class="contact-info">
                         <br/><br/><br/>
-                            <h3>Get in touch</h3>
-                            <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
-                            <p>The secret to happiness lies in helping others. Never underestimate the difference.</p>
+                            <h3>Let's connect! </h3>
+                            <p>If you feel that you can make a difference in lives, we welcome you to join us! 
+</p>
+                            <!-- <p>.</p> -->
                             <ul>
-                                <li><i class="ti-location-pin"></i> 315 West 33rd Street New York, NY 10001</li>
+                                <li><i class="ti-location-pin"></i> 315 West 33rd Street New York</li>
                                 <li><i class="ti-mobile"></i> +1 212 425 8617, +1 212 425 8533</li>
                                 <li><i class="ti-email"></i> Youremail@companyname.com</li>
                             </ul>
@@ -44,8 +65,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-6 xs-padding">
                         <div class="contact-form">
                             <br/><br/><br/>
-                            <h3>Drop us a line</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h3>Drop us a message to reach out to you! </h3><br/>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
                             <!-- <form method="post" action="<?php echo base_url('') . 'contact' ?>"><br /><br />
                             <div class="col-md-6">
                                 <div class="form-group colum-row row">
@@ -174,7 +195,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 var mapOptions = {
                     zoom: 11,
-                    center: new google.maps.LatLng(40.6700, -73.9400), 
+                    center: new google.maps.LatLng(19.073263681594828, 72.85792565813568), 
                     scrollwheel: false,
                     navigationControl: false,
                     mapTypeControl: false,
@@ -188,7 +209,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 var map = new google.maps.Map(mapElement, mapOptions);
 
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    position: new google.maps.LatLng(19.073263681594828, 72.85792565813568),
                     map: map,
                     title: 'Location!'
                 });

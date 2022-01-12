@@ -41,7 +41,7 @@
       <div class="logo">
         <a href="index.html" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="<?= base_url() ?>layout/img/favicon.png">
+            <img src="<?= base_url() ?>layout/img/favicon1.png">
           </div>
         </a>
         <a href="<?= base_url('home') ?>" class="simple-text logo-normal">
@@ -59,13 +59,13 @@
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="active">
-            <a href="<?= base_url('products_p') ?>">
+          <li >
+            <a href="<?= base_url('gallery_p') ?>">
               <i class="nc-icon nc-tile-56"></i>
               <p>Gallery Page</p>
             </a>
           </li>
-          <li>
+          <li class="active">
                     <a href="<?= base_url('video_p') ?>">
               <i class="nc-icon nc-tile-56"></i>
               <p>Video Page</p>

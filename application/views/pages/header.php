@@ -80,7 +80,7 @@
                                     
                                 </li>
                                 <li><a href="<?= base_url('about') ?>">About</a></li>
-                                <li><a href="<?= base_url('causes') ?>">Testimonial</a></li>
+                                <li><a href="<?= base_url('testimnial') ?>">Testimonial</a></li>
                                 <!-- <li><a href="<?= base_url('event') ?>">Event</a></li> -->
                                 <li><a href="<?= base_url('gallery') ?>">Gallery</a> 
                                     <!-- <ul>
@@ -97,7 +97,7 @@
                                        <li><a href="blog-single.php">Blog Single</a></li>
                                     </ul>
                                 </li> -->
-                                <li> <a href="<?= base_url('contact') ?>">Contact</a></li>
+                                <li> <a href="<?= base_url('contact') ?>">Contact Us</a></li>
                             </ul>
                             <a href="<?= base_url('donate') ?>" class="default-btn">Donate Now</a>
                        </div>

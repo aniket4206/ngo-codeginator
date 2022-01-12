@@ -40,7 +40,7 @@
             <div class="logo">
                 <a href="index.html" class="simple-text logo-mini">
                     <div class="logo-image-small">
-                        <img src="<?= base_url() ?>layout/img/favicon.png">
+                        <img src="<?= base_url() ?>layout/img/favicon1.png">
                     </div>
                 </a>
                 <a href="<?= base_url('home') ?>" class="simple-text logo-normal">
@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('products_p') ?>">
+                        <a href="<?= base_url('gallery_p') ?>">
                             <i class="nc-icon nc-tile-56"></i>
                             <p>Gallery Page</p>
                         </a>
@@ -217,7 +217,7 @@
                                     </div>
                                     <div class="ml-auto mr-auto">
                                         <button type="submit" name="submit" class="btn btn-primary btn-round">Update Content</button>
-                                        <a type="submit" href="<?php echo base_url() . 'products_p' ?>" class="btn btn-secondary btn-round">Back</a>
+                                        <a type="submit" href="<?php echo base_url() . 'gallery_p' ?>" class="btn btn-secondary btn-round">Back</a>
                                     </div>
                                 </div>
 

@@ -8,7 +8,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <?php include 'header.php'?>
-                
+<style>
+.pager-header{
+    background-image: url(../ngo/layout/img/5.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.pager-header h2{
+    color: #fff;
+    font-size: 42px;
+}
+.pager-header p{
+    color: #ddd;
+}
+</style>
+ 
         <div class="header-height"></div>
         
         <div class="pager-header">
@@ -33,30 +53,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div><!-- /Section Heading -->
                 <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
                     <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                        <p>I feel lucky to be for someone as I feel very uplifted by helping others..</p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-1.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Jonathan Smith <span>Marketer</span></h4>
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                        <p>Some feelings cannot be explained & all I can say is by joining here, I have gained a lot of satisfaction.</p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-2.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Angelina Rose <span>Designer</span></h4>
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                        <p>A place that made me believe that humanity still exists!</p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-3.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Taylor Swift <span>Developer</span></h4>
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                        <p>It gives me the ultimate power to enlighten lives around me.</p>
                         <div class="testi-footer">
-                           <img src="<?= base_url() ?>layout/img/team-4.jpg" alt="profile">
+                           <img src="<?= base_url() ?>layout/img/avatar.png" alt="profile">
                             <h4>Michel Brown <span>Programer</span></h4>
                         </div>
                     </div>
@@ -84,7 +104,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="col-md-6 xs-padding">
                         <div class="video-wrap">
-                            <img src="<?= base_url() ?>layout/img/video.jpg" alt="video">
+                        <img src="<?= "https://img.youtube.com/vi/Sqqj_14wBxU/mqdefault.jpg" ?>" alt="video">
                             <div class="play">
                                 <a class="img-popup" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=_IlLwfC2dNc"><i class="ti-control-play"></i></a>
                             </div>

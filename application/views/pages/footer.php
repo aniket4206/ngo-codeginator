@@ -3,7 +3,7 @@
                 <div class="widget-wrap row">
                     <div class="col-md-4 xs-padding">
                         <div class="widget-content">
-                            <img src="<?= base_url() ?>layout/img/logo-light.png" alt="logo">
+                            <img src="<?= base_url() ?>layout/img/logo1.png" alt="logo" width="180">
                             <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor</p>
                             <ul class="social-icon">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -44,7 +44,7 @@
 			<div class="container">
                 <div class="row">
                     <div class="col-md-6 sm-padding">
-                        <div class="copyright">&copy; 2021 All rights reserved | Design and Developed by <a style="color: white;" href="https://shoutinandout.com/" target="_blank">SHOUT IN&OUT</a>.</div>
+                        <div class="copyright">&copy; 2022 All rights reserved | Design and Developed by <a style="color: white;" href="https://shoutinandout.com/" target="_blank">SHOUT IN&OUT</a>.</div>
                     </div>
                     <div class="col-md-6 sm-padding">
                         <ul class="footer-social">

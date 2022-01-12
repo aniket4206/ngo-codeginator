@@ -47,11 +47,11 @@ class Dashboard extends CI_Controller
         $this->load->view('Dashboard/change', $data);
     }
 
-    public function products_p()
+    public function gallery_p()
     {
         // $data['title'] = "Dashboard";
         $data['fetch'] = $this->Users_model->fetch_products();
-        $this->load->view('Dashboard/products_p', $data);
+        $this->load->view('Dashboard/gallery_p', $data);
     }
 
     
@@ -66,7 +66,7 @@ class Dashboard extends CI_Controller
     {
         // $data['title'] = "Dashboard";
         $data['fetch'] = $this->Users_model->fetch_products();
-        $this->load->view('Dashboard/change_products', $data);
+        $this->load->view('Dashboard/change-gallery', $data);
     }
 
     public function change_video()
@@ -80,7 +80,7 @@ class Dashboard extends CI_Controller
     {
         $this->Users_model->delete_products($userId);
         $this->session->set_flashdata('success', 'Record deleted successfully');
-        redirect('change_products');
+        redirect('change-gallery');
     }
 
     public function delete_video($userId)  //for deleting products from products table
@@ -114,7 +114,7 @@ class Dashboard extends CI_Controller
 
     public function create_product()
     {
-        $this->load->view('Dashboard/create_product');
+        $this->load->view('Dashboard/create-gallery');
     }
 
     public function create_video()
@@ -153,7 +153,7 @@ class Dashboard extends CI_Controller
     {
         $this->load->model('Users_model');
         $data = $this->Users_model->getProducts($userId);
-        $this->load->view('Dashboard/edit_products', compact('data'));
+        $this->load->view('Dashboard/edit-gallery', compact('data'));
     }
 
     public function update_products($pid)
@@ -184,15 +184,15 @@ class Dashboard extends CI_Controller
         if ($this->form_validation->run() == true) {
             if ($this->Users_model->UpdatePro_Table($pid, $data)) {
                 $this->session->set_flashdata('success', 'Record Updated Successfully.!!');
-                redirect('products_p');
+                redirect('gallery_p');
             } else {
                 $this->session->set_flashdata('error', 'Inalid DATA');
-                redirect('edit_products');
+                redirect('edit-gallery');
             }
         } else {
             // $this->session->set_flashdata('error', 'Inalid DATA');
             $this->session->set_flashdata('failure', 'Record Updating failed due to you left some fields blank.!!');
-            redirect('products_p');
+            redirect('gallery_p');
         }
     }
 
@@ -256,7 +256,7 @@ class Dashboard extends CI_Controller
                 $this->upload->initialize($config);
                 if (!$this->upload->do_upload('image')) {
                     $this->session->set_flashdata('error', 'cant upload');
-                    redirect('create_product/');
+                    redirect('create-gallery/');
                 } else {
                     $data['image'] = $this->upload->data('file_name');
                 }
@@ -266,13 +266,13 @@ class Dashboard extends CI_Controller
         if ($this->form_validation->run() == true) {
             if ($this->Users_model->insert_Product($data)) {
                 $this->session->set_flashdata('success', 'Record Added Successfully.!!');
-                redirect('change_products');
+                redirect('change-gallery');
             } else {
                 $this->session->set_flashdata('error', 'Inalid DATA');
-                redirect('create_product');
+                redirect('create-gallery');
             }
         } else {
-            $this->load->view('Dashboard/create_product');
+            $this->load->view('Dashboard/create-gallery');
         }
     }
 
@@ -399,7 +399,7 @@ class Dashboard extends CI_Controller
                     $this->upload->initialize($config);
                     if (!$this->upload->do_upload('image')) {
                         $this->session->set_flashdata('error', 'cant upload');
-                        redirect('create_product/');
+                        redirect('create-gallery/');
                     } else {
                         $data['image'] = $this->upload->data('file_name');
                     }
@@ -409,13 +409,13 @@ class Dashboard extends CI_Controller
             if ($this->form_validation->run() == true) {
                 if ($this->Users_model->insert_Product($data)) {
                     $this->session->set_flashdata('success', 'Record Added Successfully.!!');
-                    redirect('change_products');
+                    redirect('change-gallery');
                 } else {
                     $this->session->set_flashdata('error', 'Inalid DATA');
-                    redirect('create_product');
+                    redirect('create-gallery');
                 }
             } else {
-                $this->load->view('Dashboard/create_product');
+                $this->load->view('Dashboard/create-gallery');
             }
 }
 }

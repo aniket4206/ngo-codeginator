@@ -41,7 +41,7 @@
       <div class="logo">
         <a href="index.html" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="<?= base_url() ?>layout/img/favicon.png">
+            <img src="<?= base_url() ?>layout/img/favicon1.png">
           </div>
         </a>
         <a href="<?= base_url('home') ?>" class="simple-text logo-normal">
@@ -60,7 +60,7 @@
             </a>
           </li>
           <li class="active">
-            <a href="<?= base_url('products_p') ?>">
+            <a href="<?= base_url('gallery_p') ?>">
               <i class="nc-icon nc-tile-56"></i>
               <p>Gallery Page</p>
             </a>
@@ -145,7 +145,7 @@
             <div class="card">
               <div class="card-header">
                 <h4 class="card-title text-center">Gallery
-                  <a role="button" class="btn btn-sm btn-success btn-round float-right" href="<?= base_url('change_products') ?>">
+                  <a role="button" class="btn btn-sm btn-success btn-round float-right" href="<?= base_url('change-gallery') ?>">
                     <small class="">Change</small>
                   </a>
                 </h4><br>

@@ -838,7 +838,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    7.0 Campaigns Section
    ========================================================================== */
 .campaigns-section{
-	background-image: url(../img/featured-bg.jpg);
+	background-image: url(../img/demo1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -1257,24 +1257,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 /* ==========================================================================
    15.0 Page Header Section
    ========================================================================== */
-.pager-header{
-    background-image: url(../img/page-header-bg.jpg);
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	-webkit-background-size: cover;
-	background-size: cover;
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-}
-.pager-header h2{
-    color: #fff;
-    font-size: 42px;
-}
-.pager-header p{
-    color: #ddd;
-}
+
 
 /*Breadcrumb */
 .breadcrumb{

@@ -64,7 +64,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('products_p') ?>">
+                        <a href="<?= base_url('gallery_p') ?>">
                             <i class="nc-icon nc-tile-56"></i>
                             <p>Gallery Page</p>
                         </a>

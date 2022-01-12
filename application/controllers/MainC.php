@@ -82,9 +82,9 @@ class MainC extends CI_Controller
 	}
 	
 
-	public function causes()       //Process & Product page
+	public function testimnial()       //Process & Product page
 	{
-		$this->load->view('pages/causes');
+		$this->load->view('pages/testimnial');
 	}
 
 	public function team()       //Process & Product page
@@ -311,14 +311,27 @@ class MainC extends CI_Controller
 					// $social = $this->Users_model->return_products('Social');
 					$this->load->model('Users_model');
 					$data = $this->Users_model->getMaildata($OrderID);
+					// $data = array();
 					$subject = "Donation Page";
 					$email = $data[0]->email;
 
-						$this->load->library('image_lib');
+						
+
+					$config = Array(
+						'protocol' => 'smtp',
+						'smtp_host' => 'ssl://smtp.googlemail.com',
+						'smtp_port' => 465,
+						'smtp_user' => 'error4206@gmail.com', // change it to yours
+						'smtp_pass' => 'Aniket@7499134803', // change it to yours
+						'mailtype' => 'html',
+						'charset' => 'iso-8859-1',
+						'wordwrap' => TRUE
+					);
+					$this->load->library('image_lib');
 						$font = './layout/images/BRUSHSCI.TTF';
 						$image = imagecreatefrompng('./layout/images/e_certificate-2.png');
 						$color = imagecolorallocate($image,0,77,48);
-						$name = "Gaurav borse";
+						$name = $data[0]->fname." ".$data[0]->lname;
 						$image_width = imagesx($image);  
 						$image_height = imagesy($image);
 						imagettftext($image,50,0,290,360,$color,$font,$name);
@@ -337,18 +350,6 @@ class MainC extends CI_Controller
 						$pdf->Output($file_path_pdf,"F");
 						$result['certificate_name'] = $file_path_pdf;
 				
-
-					$config = Array(
-						'protocol' => 'smtp',
-						'smtp_host' => 'ssl://smtp.googlemail.com',
-						'smtp_port' => 465,
-						'smtp_user' => 'error4206@gmail.com', // change it to yours
-						'smtp_pass' => 'Aniket@7499134803', // change it to yours
-						'mailtype' => 'html',
-						'charset' => 'iso-8859-1',
-						'wordwrap' => TRUE
-					);
-
 					$this->load->library('email', $config);
 					$this->email->set_newline("\r\n");
 					$this->email->from($config['smtp_user']); // change it to yours
